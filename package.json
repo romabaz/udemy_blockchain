@@ -1,0 +1,19 @@
+{
+  "name": "sf-chain",
+  "version": "1.0.0",
+  "description": "romabaz blockchain network",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test"
+  },
+  "author": "romabaz@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "nodemon": "^2.0.3"
+  }
+}
